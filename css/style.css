@@ -1,0 +1,953 @@
+
+
+/* Hide the default radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Style for the payment method items */
+.payment-method-item {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+/* Add a border when the payment method is selected */
+input[type="radio"]:checked + .payment-method-item {
+    border-color: #007BFF; /* Change to your preferred color */
+}
+
+/* Optional: Add a hover effect */
+.payment-method-item:hover {
+    border-color: #007BFF; /* Change to your preferred hover color */
+}
+
+/* Style the images */
+.payment-method-item img {
+    width: 60px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.d {
+    background: url('../img/e.png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff; /* White text color */
+}
+
+.d .container {
+    position: relative;
+    z-index: 2;
+}
+.d h1 {
+    font-size: 3rem; /* Large font size for the header */
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow for better readability */
+}
+.d .breadcrumb {
+    background: transparent; /* No background color */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.d .breadcrumb-item a {
+    color: #ffffff; /* White color for breadcrumb links */
+    text-decoration: none; /* Remove underline */
+}
+
+.d .breadcrumb-item a:hover {
+    color: #f8f9fa; /* Slightly lighter color on hover */
+}
+
+.d .breadcrumb-item.active {
+    color: #007bff; /* Blue color for the current page */
+}
+
+
+
+
+.c {
+    background: url('../img/c.png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff; /* White text color */
+}
+
+.c .container {
+    position: relative;
+    z-index: 2;
+}
+.c h1 {
+    font-size: 3rem; /* Large font size for the header */
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow for better readability */
+}
+.c .breadcrumb {
+    background: transparent; /* No background color */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.c .breadcrumb-item a {
+    color: #ffffff; /* White color for breadcrumb links */
+    text-decoration: none; /* Remove underline */
+}
+
+.c .breadcrumb-item a:hover {
+    color: #f8f9fa; /* Slightly lighter color on hover */
+}
+
+.c .breadcrumb-item.active {
+    color: #007bff; /* Blue color for the current page */
+}
+
+
+
+
+
+
+.s {
+    background: url('../img/s.png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff; /* White text color */
+}
+
+.d .container {
+    position: relative;
+    z-index: 2;
+}
+.s h1 {
+    font-size: 3rem; /* Large font size for the header */
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow for better readability */
+}
+.s .breadcrumb {
+    background: transparent; /* No background color */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.s .breadcrumb-item a {
+    color: #ffffff; /* White color for breadcrumb links */
+    text-decoration: none; /* Remove underline */
+}
+
+.s .breadcrumb-item a:hover {
+    color: #f8f9fa; /* Slightly lighter color on hover */
+}
+
+.s .breadcrumb-item.active {
+    color: #007bff; /* Blue color for the current page */
+}
+
+
+
+
+.T {
+    background: url('../img/ee.png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff; /* White text color */
+}
+
+.T .container {
+    position: relative;
+    z-index: 2;
+}
+.T h1 {
+    font-size: 3rem; /* Large font size for the header */
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow for better readability */
+}
+.T .breadcrumb {
+    background: transparent; /* No background color */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.T .breadcrumb-item a {
+    color: #ffffff; /* White color for breadcrumb links */
+    text-decoration: none; /* Remove underline */
+}
+
+.T .breadcrumb-item a:hover {
+    color: #f8f9fa; /* Slightly lighter color on hover */
+}
+
+.T .breadcrumb-item.active {
+    color: #007bff; /* Blue color for the current page */
+}
+
+
+
+
+
+
+.pp {
+    background: url('../img/Untitled design (3).png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff; /* White text color */
+}
+
+.pp .container {
+    position: relative;
+    z-index: 2;
+}
+.pp h1 {
+    font-size: 3rem; /* Large font size for the header */
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow for better readability */
+}
+.pp .breadcrumb {
+    background: transparent; /* No background color */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.pp .breadcrumb-item a {
+    color: #ffffff; /* White color for breadcrumb links */
+    text-decoration: none; /* Remove underline */
+}
+
+.pp .breadcrumb-item a:hover {
+    color: #f8f9fa; /* Slightly lighter color on hover */
+}
+
+.pp .breadcrumb-item.active {
+    color: #007bff; /* Blue color for the current page */
+}
+
+
+
+
+/* Page Header about Styles */
+.page-header {
+    background: url('"D:\Klinik Free Website Template - Free-CSS.com\clinic-website-template\img\header-page.jpg"') no-repeat center center;
+    background-size: cover;
+    color: #ffffff; /* White text color */
+}
+
+.page-header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.page-header h1 {
+    font-size: 3rem; /* Large font size for the header */
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow for better readability */
+}
+
+.page-header .breadcrumb {
+    background: transparent; /* No background color */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.page-header .breadcrumb-item a {
+    color: #ffffff; /* White color for breadcrumb links */
+    text-decoration: none; /* Remove underline */
+}
+
+.page-header .breadcrumb-item a:hover {
+    color: #f8f9fa; /* Slightly lighter color on hover */
+}
+
+.page-header .breadcrumb-item.active {
+    color: #007bff; /* Blue color for the current page */
+}
+
+
+
+
+.form-control {
+    border-radius: 0.5rem; /* Adjust border radius */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Change button color */
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+}
+
+/* General form styling */
+.payment-section {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.payment-right {
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+}
+
+.payment-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.payment-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.payment-method {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-method-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.payment-method-item input[type="radio"] {
+    display: none; /* Hide the default radio button */
+}
+
+.payment-method-item label {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.payment-method-item label img {
+    height: 30px; /* Adjust size as needed */
+    margin-right: 10px;
+}
+
+.payment-method-item label span {
+    font-size: 1rem;
+}
+
+.payment-method-item input[type="radio"]:checked + label {
+    border-color: #007bff; /* Highlight selected option */
+    background-color: #e9ecef; /* Optional background color for selected */
+}
+
+.payment-form-group,
+.payment-form-group-flex {
+    margin-bottom: 15px;
+}
+
+.payment-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.payment-form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.payment-form-label-required::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+
+.payment-form-submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.payment-form-submit-button:hover {
+    background-color: #0056b3;
+}
+
+/********** Template CSS **********/
+/* Ensure the row is centered */
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+    /* Optional: you can center items vertically if needed */
+    align-items: center;
+}
+
+/* Style for the team-item card */
+.team-item {
+    border: 1px solid #ddd; /* Add a border if needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for prominence */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.team-item:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.team-text h5 {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.team-text p {
+    font-size: 1rem; /* Adjust the font size as needed */
+}
+
+/* Social media buttons */
+.team-social .btn {
+    margin: 0 5px; /* Space out buttons */
+    padding: 10px; /* Adjust padding for buttons */
+    background-color: #f8f9fa; /* Light background for buttons */
+    color: #333; /* Dark color for icons */
+    border: none; /* Remove button border */
+}
+
+.team-social .btn:hover {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+}
+
+:root {
+    --primary: #0463FA;
+    --light: #EFF5FF;
+    --dark: #1B2C51;
+}
+
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+.fw-black {
+    font-weight: 900 !important;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+
+/*** Navbar ***/
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 75px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.navbar.sticky-top {
+    top: -100px;
+    transition: .5s;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+
+/*** Header ***/
+.header-carousel .owl-carousel-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.header-carousel .owl-nav {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.header-carousel .owl-nav .owl-prev:hover,
+.header-carousel .owl-nav .owl-next:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.header-carousel .owl-dots {
+    position: absolute;
+    height: 45px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.header-carousel .owl-dot::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    top: 4px;
+    left: 4px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.header-carousel .owl-dot.active {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.page-header {
+    background: url(../img/header-page.jpg) top center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--light);
+}
+
+
+/*** Service ***/
+.service-item {
+    transition: .5s;
+}
+
+.service-item:hover {
+    margin-top: -10px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.service-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item:hover .btn {
+    width: 140px;
+}
+
+
+/*** Feature ***/
+@media (min-width: 992px) {
+    .container.feature {
+        max-width: 100% !important;
+    }
+
+    .feature-text  {
+        padding-left: calc(((100% - 960px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1200px) {
+    .feature-text  {
+        padding-left: calc(((100% - 1140px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1400px) {
+    .feature-text  {
+        padding-left: calc(((100% - 1320px) / 2) + .75rem);
+    }
+}
+
+
+/*** Team ***/
+.team-item img {
+    position: relative;
+    top: 0;
+    transition: .5s;
+}
+
+.team-item:hover img {
+    top: -30px;
+}
+
+.team-item .team-text {
+    position: relative;
+    height: 100px;
+    transition: .5s;
+}
+
+.team-item:hover .team-text {
+    margin-top: -60px;
+    height: 160px;
+}
+
+.team-item .team-text .team-social {
+    opacity: 0;
+    transition: .5s;
+}
+
+.team-item:hover .team-text .team-social {
+    opacity: 1;
+}
+
+.team-item .team-social .btn {
+    display: inline-flex;
+    color: var(--primary);
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.team-item .team-social .btn:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+}
+
+
+/*** Appointment ***/
+.bootstrap-datetimepicker-widget.bottom {
+    top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+    border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+    font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+    background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+    border-bottom-color: var(--primary);
+}
+
+
+/*** Testimonial ***/
+.testimonial-carousel::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+.testimonial-carousel::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        width: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        width: 300px;
+    }
+}
+
+.testimonial-carousel .owl-item .testimonial-text {
+    background: var(--light);
+    transform: scale(.8);
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text {
+    background: var(--primary);
+    transform: scale(1);
+}
+
+.testimonial-carousel .owl-item .testimonial-text *,
+.testimonial-carousel .owl-item .testimonial-item img {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text * {
+    color: var(--light) !important;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item img {
+    background: var(--primary) !important;
+} 
+
+.testimonial-carousel .owl-nav {
+    position: absolute;
+    width: 350px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transition: .5s;
+    z-index: 1;
+}
+
+.testimonial-carousel:hover .owl-nav {
+    width: 300px;
+    opacity: 1;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+    position: relative;
+    color: var(--primary);
+    font-size: 45px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+    color: var(--dark);
+}
+
+
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .copyright a:hover {
+    color: var(--primary);
+}
